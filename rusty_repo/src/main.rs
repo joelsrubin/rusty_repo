@@ -16,6 +16,13 @@ impl Rectangle {
     fn square(size: u32) -> Rectangle {
         Rectangle { width: size, height: size}
     }
+
+    fn double(&self) -> Rectangle {
+        Rectangle {
+            width: self.width * 2,
+            height: self.height * 2
+        }
+    }
 }
 
 
@@ -24,6 +31,8 @@ fn main() {
     let rect2 = Rectangle {width: 10, height: 40};
     let rect3 = Rectangle {width: 60, height: 45};
     let sq = Rectangle::square(30);
+    let doubled = Rectangle::double(&rect1);
+
     println!("Your first square: {:#?}", sq);
     println!("rect1 is {:#?}", rect1);
     println!(
@@ -32,6 +41,7 @@ fn main() {
 
     println!("Can rect1 hold rect2? {}", rect1.can_hold(&rect2));
     println!("Can rect1 hold rect3? {}", rect1.can_hold(&rect3));
+    println!("{:#?} doubled is {:#?}", rect1, doubled);
 }
 
 
