@@ -1,0 +1,1 @@
+/Users/joelrubin/work/rusty_repo/lib_repo/communicator/target/debug/libcommunicator.rlib: /Users/joelrubin/work/rusty_repo/lib_repo/communicator/src/client.rs /Users/joelrubin/work/rusty_repo/lib_repo/communicator/src/lib.rs /Users/joelrubin/work/rusty_repo/lib_repo/communicator/src/network/mod.rs /Users/joelrubin/work/rusty_repo/lib_repo/communicator/src/network/server.rs
