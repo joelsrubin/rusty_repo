@@ -24,5 +24,5 @@ pub fn read_username_from_file() -> Result<String, io::Error> {
 }
 fn main() {
 
-read_username_from_file();
+
 }
